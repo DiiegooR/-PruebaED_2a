@@ -24,7 +24,8 @@ public class CursoTest{
     }
 
     /**
-     * Test of aniadirAlumno method, of class Curso.
+     * Test para añadir un Alumno a un curso,
+     * sobre la clase Curso.
      */
     public void testAniadirAlumno() {
         curso.aniadirAlumno(alumno1);
