@@ -24,14 +24,16 @@ public class PersonaTest{
     }
     
     /**
-     * Test of getEdad method, of class Persona.
+     * Test de getEdad que te dice si es verdadera la edad, 
+     * sobre la clase Persona.
      */
     public void testGetEdad() {
         assertEquals(18, persona1.getEdad());
     }
 
     /**
-     * Test of equals method, of class Persona.
+     * Test de Equals que te dice si son igual o no,
+     * sobre la clase Persona.
      */
     public void testEquals() {
         assertTrue(persona1.equals(persona2));
